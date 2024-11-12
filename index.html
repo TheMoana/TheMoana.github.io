@@ -7,98 +7,101 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
-    <nav>
-        <a href="indexen.html">EN</a>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Réalisations</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#projects">Réalisations</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">EN/FR</a></li>
-                    <li><button class="mode-toggle" id="mode-toggle"><i class="fas fa-moon"></i></button></li>
-        </ul>
-    </nav>
+    /!-- Barre de nav
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="indexen.html">EN</a></li>
     
-        <header class="header">
-            <div class="logo">Moana</div>
-            
-        </header>
-    
-        <section class="home" style="background-color: #f0f0f0;">
-            <h1>Moana [Nom de famille]</h1>
-            <h2><a href="#projects">Made <span class="highlight">Astra</span>s</a></h2>
-            <p class="quote">"La créativité est l'intelligence qui s'amuse."</p>
-            <div id="btn-start" class="btn-link">Commencer la visite</div>
-        </section>
-    
-        <section id="about" class="about">
-            <h3>About Me</h3>
-            <h2>Hello, je suis Moana</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-            <img src="profile.jpg" alt="Moana" class="profile-image">
-            <a href="#contact" class="btn-contact">Me contacter</a>
-        </section>
-    
-        <section id="skills" class="skills">
-            <h3>Mes compétences</h3>
-            <div class="skill-category">
-                <h4>Soft Skills</h4>
-                <div class="skill-ray">
-                    <span>Communication</span>
-                    <span>Créativité</span>
-                    <span>Travail d'équipe</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h4>Hard Skills</h4>
-                <div class="skill-ray">
-                    <span>Design</span>
-                    <span>Stratégie Digitale</span>
-                    <span>SEO</span>
-                </div>
-            </div>
-        </section>
-    
-        <section id="projects" class="projects">
-            <h3>Mes projets</h3>
-            <h4>Mes Astras</h4>
-            <div class="gallery">
-                <div class="project-item">
-                    <img src="project1.jpg" alt="Projet 1">
-                    <div class="overlay">Description courte du projet</div>
-                </div>
-                <div class="project-item">
-                    <img src="project2.jpg" alt="Projet 2">
-                    <div class="overlay">Description courte du projet</div>
-                </div>
-            </div>
-            <button class="icon-burger" id="menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-        </section>
-    
-        <section id="testimonials" class="testimonials">
-            <h3>Témoignages</h3>
-            <div class="carousel">
-                <div class="testimonial-card">
-                    <p>"Un excellent travail, très satisfait !"</p>
-                    <img src="avatar1.jpg" alt="Client 1">
-                    <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                </div>
-            </div>
-        </section>
-    
-        <section id="contact" class="contact">
-            <h3>Travaillons ensemble</h3>
-            <p>Si vous êtes intéressé par une collaboration ou souhaitez en savoir plus sur mes projets, n'hésitez pas à me contacter !</p>
-            <a href="mailto:moana@example.com" class="btn-contact">Contactez-moi</a>
-        </section>
-    
-        <script src="script.js"></script>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="moana">
+            <h1>MOANA</h1>
+            <h2>Consultante Territorial Branding</h2>
+            <p>Lorem Ipusum Bla bla bla </p>
+            <button>Me contacter</button>
+        </div>
+              <div class="titles">
+                 <h1>Un hero banner</h1>
+                 <p>Une courte description</p>
+              </div>
+
+    </section>
 
 
+    / Compétences>
+    <section id="skills">
+        <div class="skill-item">
+            <h3>Compétence 1</h3>
+            <p>Loremmm ipsumm</p>
+        </div>
+        <div class="skill-item">
+            <h3>Compétence 2</h3>
+            <p>Loremmm ipsumm</p>
+        </div>
+        <div class="skill-item">
+            <h3>Compétence 3</h3>
+            <p>Loremmm ipsumm</p>
+        </div>
+    </section>
+
+    <!-- Section réalisations -->
+    <section id="projects">
+        <h2>Mes dernières réalisations</h2>
+        <div class="project-gallery">
+            <div class="project-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project title</h3>
+                <p>Design • Dev</p>
+            </div>
+            <div class="project-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project title</h3>
+                <p>Design • Dev</p>
+            </div>
+            <!-- Ajoute plus de projets ici -->
+        </div>
+    </section>
+
+    /testimony
+    <section id="testimonials">
+        <h2>Témoignages</h2>
+        <div class="testimonial">
+            <p>Petit témoignage d'un client / collaborateur</p>
+            <div class="rating">★★★★★</div>
+            <h4>Prénom Nom</h4>
+            <p>Job / Entreprise</p>
+        </div>
+        <div class="testimonial">
+            <p>Petit témoignage d'un client / collaborateur</p>
+            <div class="rating">★★★★★</div>
+            <h4>Gemma Nolen</h4>
+            <p>Job / Entreprise</p>
+        </div>
+    </section>
+
+    /contact
+    <section id="contact" class="contact">
+        <h2>Travaillons ensemble !</h2>
+        <p>tous ceux qui sont fous venez.</p>
+        <button>Me contacter</button>
+        <div class="social-icons">
+            <a href="#"><img src="XXXX" alt="Instagram"></a>
+            <a href="#"><img src="XXXX" alt="Linkedin"></a>
+            <a href="#"><img src="XXX" alt="GitHub"></a>
+            <a href="#"><img src="xxx" alt="Gmail"></a>
+        </div>
+    </section>
 </body>
 </html>
