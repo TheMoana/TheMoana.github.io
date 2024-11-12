@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moana's Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="indexen.html">EN</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Réalisations</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">EN/FR</a></li>
+                    <li><button class="mode-toggle" id="mode-toggle"><i class="fas fa-moon"></i></button></li>
+        </ul>
+    </nav>
+    
+        <header class="header">
+            <div class="logo">Moana</div>
+            
+        </header>
+    
+        <section class="home" style="background-color: #f0f0f0;">
+            <h1>Moana [Nom de famille]</h1>
+            <h2><a href="#projects">Made <span class="highlight">Astra</span>s</a></h2>
+            <p class="quote">"La créativité est l'intelligence qui s'amuse."</p>
+            <div id="btn-start" class="btn-link">Commencer la visite</div>
+        </section>
+    
+        <section id="about" class="about">
+            <h3>About Me</h3>
+            <h2>Hello, je suis Moana</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            <img src="profile.jpg" alt="Moana" class="profile-image">
+            <a href="#contact" class="btn-contact">Me contacter</a>
+        </section>
+    
+        <section id="skills" class="skills">
+            <h3>Mes compétences</h3>
+            <div class="skill-category">
+                <h4>Soft Skills</h4>
+                <div class="skill-ray">
+                    <span>Communication</span>
+                    <span>Créativité</span>
+                    <span>Travail d'équipe</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Hard Skills</h4>
+                <div class="skill-ray">
+                    <span>Design</span>
+                    <span>Stratégie Digitale</span>
+                    <span>SEO</span>
+                </div>
+            </div>
+        </section>
+    
+        <section id="projects" class="projects">
+            <h3>Mes projets</h3>
+            <h4>Mes Astras</h4>
+            <div class="gallery">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Projet 1">
+                    <div class="overlay">Description courte du projet</div>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Projet 2">
+                    <div class="overlay">Description courte du projet</div>
+                </div>
+            </div>
+            <button class="icon-burger" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    
+        <section id="testimonials" class="testimonials">
+            <h3>Témoignages</h3>
+            <div class="carousel">
+                <div class="testimonial-card">
+                    <p>"Un excellent travail, très satisfait !"</p>
+                    <img src="avatar1.jpg" alt="Client 1">
+                    <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <h3>Travaillons ensemble</h3>
+            <p>Si vous êtes intéressé par une collaboration ou souhaitez en savoir plus sur mes projets, n'hésitez pas à me contacter !</p>
+            <a href="mailto:moana@example.com" class="btn-contact">Contactez-moi</a>
+        </section>
+    
+        <script src="script.js"></script>
+
+
+</body>
+</html>
