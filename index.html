@@ -3,105 +3,316 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moana's Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio de Moana Dogué, consultante en marketing touristique. Découvrez mes projets et compétences.">
+    <meta name="keywords" content="portfolio, marketing, tourisme, design, valorisation des spiritueux, Martinique, consultant, tourisme de luxe">
+    <meta name="robots" content="index, follow">
+
+    <title>Portfolio de Moana</title>
+
     <link rel="stylesheet" href="style.css">
-<body>
-    /!-- Barre de nav
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#projects">Réalisations</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="indexen.html">EN</a></li>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     
-        </nav>
-    </header>
-
-    <!-- Hero -->
-    <section id="hero">
-        <div class="moana">
-            <h1>MOANA</h1>
-            <h2>Consultante Territorial Branding</h2>
-            <p>Lorem Ipusum Bla bla bla </p>
-            <button>Me contacter</button>
-        </div>
-              <div class="titles">
-                 <h1>Un hero banner</h1>
-                 <p>Une courte description</p>
-              </div>
-
-    </section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
 
-    / Compétences>
+  
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">
+      <img src="images\Logo madastra photo de profil .svg" alt="LogoMoana" class="logomoana"> </a>
+    <ul>
+        <li><a href="#indexproject.html">Réalisations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#madastra">L'Agence</a></li>
+        <li><a href="#indexen.html">EN</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section bienvenue Hero Header -->
+  <!-- <header>
+    <div class="herobienvenue">
+        <img src="XXXXX" alt="Bienvenue">
+        <h1>Welcome<br>everybody, tout le monde !</h1>
+    </div>  
+      <span class="line1"></span> 
+  </header> -->
+  <header>
+    <div class="herobienvenue">
+        <img src="XXXXX" alt="Bienvenue">
+        <h1 class="clip-text">Welcome<br>everybody, tout le monde !</h1>
+    </div>  
+    <span class="line1"></span>
+</header>
+
+
+  <main>
+  <!-- Section About Me -->
+  <section id="aboutme">
+    <div class="presentation" data-aos="fade-left" data-aos-duration="1500">
+        <h1>Who am I?</h1>
+        <h3>Je suis Moana, consultante en marketing digital <br> pour vos territoires!</h3>
+        <p>
+            Passionnée par le marketing digital, le numérique et le tourisme.
+            Je guide les entreprises dans leur transition digitale.<br>
+            Je maîtrise CSS, JavaScript et le développement d'applications.
+            Créative et en perpétuelle évolution, je propose des solutions innovantes.<br>
+            Ensemble, transformons vos projets avec des solutions digitales durables.
+        </p>
+        <a class="button secondary" href="mailto:moana.dogue@latoile.em-lyon.com">Contactez-moi</a>
+    </div>
+    <div class="image-container" data-aos="fade-right" data-aos-duration="1500">
+        <img src="https://i.pinimg.com/736x/fd/ad/15/fdad152f953e7637ec5ddb489b84ddc1.jpg" alt="ma photo">
+    </div>
+</section>
+
+
+  <!-- Section skills -->
     <section id="skills">
+      <h1>Compétences clés</h1>
+      <div class="skill-gallery">
         <div class="skill-item">
-            <h3>Compétence 1</h3>
-            <p>Loremmm ipsumm</p>
+          <i class="fa-brands fa-html5"></i>
+          <div>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
+    
         <div class="skill-item">
-            <h3>Compétence 2</h3>
-            <p>Loremmm ipsumm</p>
+          <i class="fa-brands fa-css3-alt"></i>
+          <div>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
+    
         <div class="skill-item">
-            <h3>Compétence 3</h3>
-            <p>Loremmm ipsumm</p>
+          <i class="fa-brands fa-js"></i>
+          <div>
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
+    
+        <div class="skill-item">
+          <i class="fa-regular fa-sparkles"></i>
+          <div>
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+    
+        <div class="skill-item">
+          <i class="fa-solid fa-bullhorn"></i>
+          <div>
+            <h3>Communication</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- AOS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init(); // Initialisation d'AOS pour l'animation
+    </script>
+
+
+    <!-- CV Download Section -->
+    <section id="cv">
+        <p>Si vous souhaitez en savoir plus, n’hésitez pas à télécharger mon CV.</p>
+        <a class="cv button primary" href="documents/CV Moana DOGUE - Chargée de mission tourisme 3009.pdf" download>
+        <i class="fas fa-download"></i>Télécharger le CV </a>
     </section>
 
-    <!-- Section réalisations -->
-    <section id="projects">
-        <h2>Mes dernières réalisations</h2>
-        <div class="project-gallery">
-            <div class="project-item">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project title</h3>
-                <p>Design • Dev</p>
+<!-- Section projets -->
+    <section id="indexproject">
+    <h1>Mes réalisations</h1>
+      <div class="projects-container">
+          <div class="card" data-aos="flip-left">
+              <a href="indexproject.html">
+                <img src="images/mountain1911.jpg" alt="Pour Madastra"></a>
+            <div class="card-overlay">
+               <p>Description : Projet pour Madastra mettant en avant le marketing territorial.</p>
+                 <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
             </div>
-            <div class="project-item">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project title</h3>
-                <p>Design • Dev</p>
+                <h3>Madastra</h3>
+          </div>
+              
+          <div class="card" data-aos="flip-left">
+              <a href="indexproject.html">
+              <img src="images/sunset1911.jpg" alt="Pour blog de voyage"></a>
+            <div class="card-overlay">
+                <p>Description : Blog de voyage avec un focus sur des destinations exotiques.</p>
+                <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
             </div>
-            <!-- Ajoute plus de projets ici -->
-        </div>
+                  <h3>Blog de voyage</h3>
+          </div>
+
+          <div class="card" data-aos="flip-left">
+              <a href="indexproject.html">
+              <img src="images/arbre1911.jpg" alt="Pour La toile"></a>
+            <div class="card-overlay">
+              <p>Description : Découvrez tous mes projets réalisés à la toile: l'école du numérique.</p>
+              <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
+            </div>
+                <h3>La Toile</h3>
+          </div>
+
+          <div class="card" data-aos="flip-left">
+              <a href="indexproject.html">
+              <img src="images/van1911.jpg" alt="Pour vanlife"></a>
+              <div class="card-overlay">
+               <p>Description : Blog d'aménagement et voyages en van.</p>
+                <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
+              </div>
+                <h3>Vanlife</h3>
+          </div>
+      </div>
     </section>
 
-    /testimony
-    <section id="testimonials">
-        <h2>Témoignages</h2>
-        <div class="testimonial">
-            <p>Petit témoignage d'un client / collaborateur</p>
-            <div class="rating">★★★★★</div>
-            <h4>Prénom Nom</h4>
-            <p>Job / Entreprise</p>
-        </div>
-        <div class="testimonial">
-            <p>Petit témoignage d'un client / collaborateur</p>
-            <div class="rating">★★★★★</div>
-            <h4>Gemma Nolen</h4>
-            <p>Job / Entreprise</p>
-        </div>
-    </section>
+<!-- Section Testimonials -->
+<section id="testimonials" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" class="aos-init aos-animate">
+  <h2>Témoignages</h2>
+  <div class="testimonials-carousel">
+    <div class="testimonial-card">
+      <p>Petit témoignage d'un client. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="rating">★★★★☆</div>
+      <div class="avatar">
+        <img src="avatar1.jpg" alt="Avatar 1">
+      </div>
+      <div class="testimonial-info">
+        <h3 class="name">Marie LEMOINE</h3>
+        <p class="profession">Développeuse Web</p>  
+      </div>
+    </div>
 
-    /contact
+    <div class="testimonial-card">
+      <p>Petit témoignage d'un client. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="rating">★★★★★</div>
+      <div class="avatar">
+        <img src="avatar1.jpg" alt="Avatar 1">
+      </div>
+      <div class="testimonial-info">
+        <h3 class="name">David CINAMMON</h3>
+        <p class="profession">Producteur de rhum</p>  
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>Petit témoignage d'un client. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="rating">★★★★★</div>
+      <div class="avatar">
+        <img src="avatar1.jpg" alt="Avatar 1">
+      </div>
+      <div class="testimonial-info">
+        <h3 class="name">Jean-Marc MONGE</h3>
+        <p class="profession">Développeuse Web</p>  
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>Petit témoignage d'un client. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="rating">★★★★★</div>
+      <div class="avatar">
+        <img src="avatar1.jpg" alt="Avatar 1">
+      </div>
+      <div class="testimonial-info">
+        <h3 class="name">Nath NEWTON</h3>
+        <p class="profession">Web designer</p>  
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p>Petit témoignage d'un client. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="rating">★★★★★</div>
+      <div class="avatar">
+        <img src="avatar1.jpg" alt="Avatar 1">
+      </div>
+      <div class="testimonial-info">
+        <h3 class="name">Nicolas TESLA</h3>
+        <p class="profession">Travel Designer</p>  
+      </div>
+    </div>
+  </div>
+
+
+  <button class="carousel-btn prev" id="prev-btn">❮</button>
+  <button class="carousel-btn next" id="next-btn">❯</button>
+</section>
+
+
+  <!-- Section contact -->
     <section id="contact" class="contact">
         <h2>Travaillons ensemble !</h2>
-        <p>tous ceux qui sont fous venez.</p>
+          <p>.Si vous êtes intéressé par une collaboration ou souhaitez en savoir plus sur mes projets, n'hésitez pas à me contacter !</p> 
         <button>Me contacter</button>
-        <div class="social-icons">
+        <!-- <div class="social-icons">
             <a href="#"><img src="XXXX" alt="Instagram"></a>
             <a href="#"><img src="XXXX" alt="Linkedin"></a>
-            <a href="#"><img src="XXX" alt="GitHub"></a>
-            <a href="#"><img src="xxx" alt="Gmail"></a>
+            <a href="https://github.com/TheMoana"><img src="XXX" alt="GitHub"></a>
+            <a href="mailto:contact.madastra@gmail.com"><img src="xxx" alt="Gmail"></a>
+        </div> -->
+       
+        <div class="request">
+           <h2>Ou ecrivez moi juste ici pour donner vie à vos projets</h2>
+              <p>Remplissez le formulaire ci-dessous <br> pour m'envoyer vos requêtes.</p>
+            <form>
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Message"></textarea>
+              <button type="submit" class="btn">Send</button>
+              </form>
         </div>
     </section>
+
+  <!-- Section Map -->
+    <section id="map">
+      <h2>Adresse de l'agence. </h2>
+          <div id="map-container">
+              <div id="map"></div>
+          </div>
+    </section>
+
+  <!-- Section Newsletter
+    <section>
+      <div class="newsletter-container">
+          <h3>Recevez nos newsletters</h3>
+            <form>
+               <input type="email" placeholder="Votre adresse email">
+               <button type="submit">S'inscrire</button>
+            </form>
+      </div>
+    </section> -->
+    
+</main>
+
+    <!-- Pour remonter en haut -->
+    <span>
+            <a href="#" class="arrow-up">
+            <img src="https://cdn-icons-png.flaticon.com/128/54/54817.png" alt="flechehaut">
+            </a>
+    </span>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social-icons">
+                <a href="https://fr.linkedin.com/in/moana-dogu%C3%A9-283a74150" target="_blank"><i class="fa-brands fa-linkedin-in" alt="Linkedin"></i></a>
+                <a href="https://github.com/TheMoana" target="_blank"><i class="fa-brands fa-github"alt="GitHub"></i></a>
+                <a href="XX" target="_blank"><i class="fa-brands fa-instagram" alt="Instagram Moana"></i></a>
+        </div>
+        <p>© 2024 Madastra. Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
