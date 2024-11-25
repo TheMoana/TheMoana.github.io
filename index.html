@@ -11,7 +11,10 @@
     <title>Portfolio de Moana</title>
 
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
@@ -20,34 +23,31 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>AOS.init();</script>
 
-
-  
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav>
+   <!-- Navigation -->
+   <nav>
     <a href="index.html">
       <img src="images\Logo madastra photo de profil .svg" alt="LogoMoana" class="logomoana"> </a>
+      <div class="hamburger">
+        <div class="ligne"></div>
+        <div class="ligne"></div>
+        <div class="ligne"></div>
+    </div>
+
+      
     <ul>
         <li><a href="#indexproject.html">Réalisations</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#madastra">L'Agence</a></li>
+        <!-- <li><a href="#madastra">L'Agence</a></li> -->
         <li><a href="#indexen.html">EN</a></li>
     </ul>
   </nav>
 
-  <!-- Section bienvenue Hero Header -->
-  <!-- <header>
-    <div class="herobienvenue">
-        <img src="XXXXX" alt="Bienvenue">
-        <h1>Welcome<br>everybody, tout le monde !</h1>
-    </div>  
-      <span class="line1"></span> 
-  </header> -->
   <header>
     <div class="herobienvenue">
-        <img src="XXXXX" alt="Bienvenue">
+        <!-- <img src="XXXXX" alt="Bienvenue"> -->
         <h1 class="clip-text">Welcome<br>everybody, tout le monde !</h1>
     </div>  
     <span class="line1"></span>
@@ -104,7 +104,7 @@
         </div>
     
         <div class="skill-item">
-          <i class="fa-regular fa-sparkles"></i>
+          <i class="fa-solid fa-ranking-star"></i>
           <div>
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -178,6 +178,28 @@
               </div>
                 <h3>Vanlife</h3>
           </div>
+
+          <div class="card" data-aos="flip-left">
+            <a href="indexproject.html">
+            <img src="images/van1911.jpg" alt="Pour vanlife"></a>
+            <div class="card-overlay">
+             <p>Description : Blog d'aménagement et voyages en van.</p>
+              <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
+            </div>
+              <h3>Vanlife</h3>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <a href="indexproject.html">
+          <img src="images/van1911.jpg" alt="Pour vanlife"></a>
+          <div class="card-overlay">
+           <p>Description : Blog d'aménagement et voyages en van.</p>
+            <button class="view-more-btn" onclick="window.location.href='projets.html'">Voir plus</button>
+          </div>
+            <h3>Vanlife</h3>
+      </div>
+
+
       </div>
     </section>
 
@@ -277,12 +299,12 @@
     </section>
 
   <!-- Section Map -->
-    <section id="map">
+    <!-- <section id="map">
       <h2>Adresse de l'agence. </h2>
           <div id="map-container">
               <div id="map"></div>
           </div>
-    </section>
+    </section> -->
 
   <!-- Section Newsletter
     <section>
@@ -299,10 +321,11 @@
 
     <!-- Pour remonter en haut -->
     <span>
-            <a href="#" class="arrow-up">
-            <img src="https://cdn-icons-png.flaticon.com/128/54/54817.png" alt="flechehaut">
-            </a>
+      <a href="#" class="arrow-up">
+        <img src="https://cdn-icons-png.flaticon.com/128/54/54817.png" alt="flechehaut">
+      </a>
     </span>
+
 
     <!-- Footer -->
     <footer>
